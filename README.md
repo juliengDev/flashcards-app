@@ -2,89 +2,89 @@
 
 ![Flashcards App](/public/images/flashCard-app.png)
 
-Une application web de flashcards pour faciliter vos révisions. Créez et étudiez vos propres cartes de révision de manière interactive.
+A web-based flashcard app to help you with your revisions. Create and study your own revision cards interactively.
 
-## 🚀 Fonctionnalités
+## 🚀 Features
 
-- Interface utilisateur moderne et intuitive
-- Personnalisation facile des flashcards
-- Compatible mobile et desktop
-- Basé sur Next.js et Tailwind CSS
+- Modern and intuitive user interface
+- Easy customization of flashcards
+- Mobile and desktop compatible
+- Built with Next.js and Tailwind CSS
 
-## 📋 Prérequis
+## 📋 Prerequisites
 
-- Node.js (version 18 ou supérieure)
-- npm ou yarn
+- Node.js (version 18 or above)
+- npm or yarn
 
 ## 🛠️ Installation
 
-1. Clonez le dépôt :
+1. Clone the repository:
 
 ```bash
-git clone [url-du-repo]
+git clone [repo-url]
 cd flashcards-app
 ```
 
-2. Installez les dépendances :
+2. Install dependencies:
 
 ```bash
 npm install
-# ou
+# or
 yarn install
 ```
 
-3. Lancez le serveur de développement :
+3. Start the development server:
 
 ```bash
 npm run dev
-# ou
+# or
 yarn dev
 ```
 
-4. Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 📝 Personnalisation des Flashcards
+## 📝 Customizing Flashcards
 
-Les données des flashcards sont stockées dans le fichier `data/flashcardsData.js` à la racine du projet. Pour ajouter vos propres questions, éditez simplement ce fichier en suivant le format existant.
+Flashcard data is stored in the data/flashcardsData.js file at the root of the project. To add your own questions, simply edit this file following the existing format.
 
-Exemple de structure :
+Example structure:
 
 ```javascript
 export const flashcardsData = [
   {
-    question: "Votre question ici",
-    answer: "Votre réponse ici",
+    question: "Your question here",
+    answer: "Your answer here",
   },
-  // Ajoutez autant de cartes que nécessaire
+  // Add as many cards as needed
 ];
 ```
 
-## 🔧 Technologies Utilisées
+## 🔧 Technologies Used
 
-- [Next.js](https://nextjs.org/) (v15.0.3) - Framework React
+- [Next.js](https://nextjs.org/) (v15.0.3) - React Framework
 - [React](https://reactjs.org/) (v19.0.0-rc)
-- [Tailwind CSS](https://tailwindcss.com/) (v3.4.1) - Framework CSS
-- [@shadcn/ui](https://ui.shadcn.com/) (v0.0.4) - Composants UI
+- [Tailwind CSS](https://tailwindcss.com/) (v3.4.1) - CSS Framework
+- [@shadcn/ui](https://ui.shadcn.com/) (v0.0.4) - UI Components
 - [Lucide React](https://lucide.dev/) (v0.460.0) - Icônes
-- TypeScript - Support du typage statique
+- TypeScript - Static typing support
 
-## 💻 Scripts Disponibles
+## 💻 Available Scripts
 
-- `npm run dev` - Lance le serveur de développement
-- `npm run build` - Crée une version de production
-- `npm run start` - Démarre le serveur de production
-- `npm run lint` - Vérifie le code avec ESLint
+- `npm run dev` - Starts the development server
+- `npm run build` - Creates a production build
+- `npm run start` - Starts the production server
+- `npm run lint` - Lints the code with ESLint
 
 ## 🤝 Contribution
 
-Les contributions sont les bienvenues ! N'hésitez pas à :
+Contributions are welcome! Feel free to:
 
-1. Fork le projet
-2. Créer une branche pour votre fonctionnalité (`git checkout -b feature/AmazingFeature`)
-3. Commit vos changements (`git commit -m 'Add some AmazingFeature'`)
-4. Push sur la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrir une Pull Request
+1.	Fork the project
+2.	Create a branch for your feature (git checkout -b feature/AmazingFeature)
+3.	Commit your changes (git commit -m 'Add some AmazingFeature')
+4.	Push to the branch (git push origin feature/AmazingFeature)
+5.	Open a Pull Request
 
-## 📄 Licence
+## 📄 License
 
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+This project is licensed under the MIT License. See the LICENSE file for more details.
